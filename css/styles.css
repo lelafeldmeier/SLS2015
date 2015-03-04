@@ -151,11 +151,25 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.directions{
+    margin-top:0px;
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    padding-bottom:10px;
+}
 header {
     text-align: center;
     color: #fff;
-    background:black;
-    background-size: 100%;
+    background-image:url("../images/slsbackground.png");
+    background-size:cover;
+    background-height:auto;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
 }
 
 header .container {
@@ -310,6 +324,10 @@ section.success h5{
 
 #panels .btn-xs p{
     color:#bdbdbd;
+}
+
+#mapsection{
+    padding-bottom:30px;
 }
 
 #mapsection h2{
